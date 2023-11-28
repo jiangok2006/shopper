@@ -147,6 +147,22 @@ When you reach the step for [setting up environment variables](https://shopify.d
 
 ## Gotchas / Troubleshooting
 
+### `deployment shows suspended`
+
+Some tips:
+1. put `SHOPIFY_API_KEY`` in fly.toml as [instructions](https://shopify.dev/docs/apps/deployment/web) say. Ignore the fly.io warning that it could be sensitive. The instructions say it is not a secret. Don't be distracted by online information such as using `--build-arg`` or `.env` to set `SHOPIFY_API_KEY`.
+1. make sure `env/PORT`, `http_service/internal_port` and dockerfile's `expose` use the same port.
+1. delete the app on fly.io and restart everything.
+1. the app created by `npm init @shopify/app@latest` uses sqlite, no need to setup postgres or redis.
+
+My steps from scratch:
+1. use `flyctl launch` to generate fly.toml and choose `do not tweak any settings`. 
+1. add env variables into fly.toml.
+1. update `application_url` and `redirect_urls` in shopify.app.toml. Otherwise, you need to update in fly.io UI.
+1. add secret to fly.io `flyctl secrets set SHOPIFY_API_SECRET=xxx`, verifying the secret is added in fly.io.
+1. deploy `flyctl deploy --remote-only`.
+
+
 ### Database tables don't exist
 
 If you get this error:

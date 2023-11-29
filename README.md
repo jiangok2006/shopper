@@ -162,6 +162,7 @@ My steps from scratch:
 1. add secret to fly.io `flyctl secrets set SHOPIFY_API_SECRET=xxx`, verifying the secret is added in fly.io.
 1. deploy `flyctl deploy --remote-only`.
 
+Note, this does not deploy extension.
 
 ### Database tables don't exist
 

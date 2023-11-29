@@ -2,7 +2,7 @@
 
 name = "shopper"
 client_id = "8a246cd7392f3a0d1afc55fa2da1df8a"
-application_url = "https://shopper.fly.dev"
+application_url = "https://occasionally-believed-dept-footage.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,10 +11,10 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://shopper.fly.dev/auth/callback",
-  "https://shopper.fly.dev/auth/shopify/callback",
-  "https://shopper.fly.dev/api/auth/callback",
-  "https://shopper.fly.dev/.shopify/graphiql/auth/callback"
+  "https://occasionally-believed-dept-footage.trycloudflare.com/auth/callback",
+  "https://occasionally-believed-dept-footage.trycloudflare.com/auth/shopify/callback",
+  "https://occasionally-believed-dept-footage.trycloudflare.com/api/auth/callback",
+  "https://occasionally-believed-dept-footage.trycloudflare.com/.shopify/graphiql/auth/callback"
 ]
 
 [webhooks]

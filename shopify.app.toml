@@ -2,7 +2,7 @@
 
 name = "shopper"
 client_id = "8a246cd7392f3a0d1afc55fa2da1df8a"
-application_url = "https://occasionally-believed-dept-footage.trycloudflare.com"
+application_url = "https://fifteen-stuck-extends-symposium.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,10 +11,10 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://occasionally-believed-dept-footage.trycloudflare.com/auth/callback",
-  "https://occasionally-believed-dept-footage.trycloudflare.com/auth/shopify/callback",
-  "https://occasionally-believed-dept-footage.trycloudflare.com/api/auth/callback",
-  "https://occasionally-believed-dept-footage.trycloudflare.com/.shopify/graphiql/auth/callback"
+  "https://fifteen-stuck-extends-symposium.trycloudflare.com/auth/callback",
+  "https://fifteen-stuck-extends-symposium.trycloudflare.com/auth/shopify/callback",
+  "https://fifteen-stuck-extends-symposium.trycloudflare.com/api/auth/callback",
+  "https://fifteen-stuck-extends-symposium.trycloudflare.com/.shopify/graphiql/auth/callback"
 ]
 
 [webhooks]

@@ -14,10 +14,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  test_matrix:
-    strategy:
-      matrix:
-        flavor: [unit,integration]
+  test:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout

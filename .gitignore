@@ -13,3 +13,4 @@ database.sqlite
 .env
 yarn.lock
 dist/
+coverage/

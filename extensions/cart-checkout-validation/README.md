@@ -1,0 +1,1 @@
+https://shopify.dev/docs/apps/checkout/validation/server-side

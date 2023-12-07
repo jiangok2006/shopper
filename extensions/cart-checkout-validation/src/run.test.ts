@@ -16,7 +16,7 @@ describe('cart checkout validation function', () => {
     const expected: FunctionRunResult = {
       errors: [
         {
-          localizedMessage: "Not possible to order more than one of each",
+          localizedMessage: "Impossible to order more than one of each",
           target: "cart"
         }
       ]

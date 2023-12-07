@@ -25,4 +25,4 @@ embedded = false
 
 [build]
 automatically_update_urls_on_dev = true
-dev_store_url = ".myshopify.com"
+dev_store_url = "lian_checkout_preview.myshopify.com"

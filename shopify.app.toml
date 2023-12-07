@@ -2,7 +2,7 @@
 
 name = "shopper"
 client_id = "8a246cd7392f3a0d1afc55fa2da1df8a"
-application_url = "https://fifteen-stuck-extends-symposium.trycloudflare.com"
+application_url = "https://petition-pens-developmental-trust.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,10 +11,10 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://fifteen-stuck-extends-symposium.trycloudflare.com/auth/callback",
-  "https://fifteen-stuck-extends-symposium.trycloudflare.com/auth/shopify/callback",
-  "https://fifteen-stuck-extends-symposium.trycloudflare.com/api/auth/callback",
-  "https://fifteen-stuck-extends-symposium.trycloudflare.com/.shopify/graphiql/auth/callback"
+  "https://petition-pens-developmental-trust.trycloudflare.com/auth/callback",
+  "https://petition-pens-developmental-trust.trycloudflare.com/auth/shopify/callback",
+  "https://petition-pens-developmental-trust.trycloudflare.com/api/auth/callback",
+  "https://petition-pens-developmental-trust.trycloudflare.com/.shopify/graphiql/auth/callback"
 ]
 
 [webhooks]
@@ -25,4 +25,4 @@ embedded = false
 
 [build]
 automatically_update_urls_on_dev = true
-dev_store_url = "lian-shop2023.myshopify.com"
+dev_store_url = ".myshopify.com"

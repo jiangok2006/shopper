@@ -1,0 +1,27 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+name = "shopper-test"
+client_id = "10e1b7f1a04edef9def89910cb80bff9"
+application_url = "https://museums-mad-retrieval-season.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://museums-mad-retrieval-season.trycloudflare.com/auth/callback",
+  "https://museums-mad-retrieval-season.trycloudflare.com/auth/shopify/callback",
+  "https://museums-mad-retrieval-season.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2023-10"
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "quickstart-9da9ee0f.myshopify.com"

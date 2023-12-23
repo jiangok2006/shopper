@@ -1,0 +1,33 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+name = "shopper"
+client_id = "8a246cd7392f3a0d1afc55fa2da1df8a"
+
+# do not change below otherwise fly.io shopper will not work
+application_url = "https://shopper.fly.dev"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+# do not change below otherwise fly.io shopper will not work
+[auth]
+redirect_urls = [
+  "https://shopper.fly.dev/auth/callback",
+  "https://shopper.fly.dev/auth/shopify/callback",
+  "https://shopper.fly.dev/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2023-10"
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+# do not use below stores:
+#   lian-checkout-preview which is used by fly.io
+#   dev-preview-perf which is used by lighthouse perf testing
+dev_store_url = "quickstart-9da9ee0f.myshopify.com"

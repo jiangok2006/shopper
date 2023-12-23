@@ -2,7 +2,7 @@
 
 name = "shopper"
 client_id = "8a246cd7392f3a0d1afc55fa2da1df8a"
-application_url = "https://petition-pens-developmental-trust.trycloudflare.com"
+application_url = "https://velocity-minority-secretariat-specifications.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,10 +11,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://petition-pens-developmental-trust.trycloudflare.com/auth/callback",
-  "https://petition-pens-developmental-trust.trycloudflare.com/auth/shopify/callback",
-  "https://petition-pens-developmental-trust.trycloudflare.com/api/auth/callback",
-  "https://petition-pens-developmental-trust.trycloudflare.com/.shopify/graphiql/auth/callback"
+  "https://velocity-minority-secretariat-specifications.trycloudflare.com/auth/callback",
+  "https://velocity-minority-secretariat-specifications.trycloudflare.com/auth/shopify/callback",
+  "https://velocity-minority-secretariat-specifications.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
@@ -25,4 +24,4 @@ embedded = false
 
 [build]
 automatically_update_urls_on_dev = true
-dev_store_url = "lian_checkout_preview.myshopify.com"
+dev_store_url = "lian-checkout-preview.myshopify.com"
